@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>MedCos</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div class="wrapper">
+      <!-- end loader -->
+      <div class="sidebar">
+         <!-- Sidebar  -->
+         <nav id="sidebar">
+            <div id="dismiss">
+               <i class="fa fa-arrow-left"></i>
+            </div>
+            <ul class="list-unstyled components">
+               <li class="active"> <a href="#">Home</a> </li>
+               <li><a href="#about">About</a> </li>
+               <li><a href="#model-form-section">Predict</a> </li>
+               <li><a href="#contact">Contact Us</a> </li>
+            </ul>
+         </nav>
+      </div>
+      <div id="content">
+         <!-- header -->
+         <header>
+            <!-- header inner -->
+            <div class="header" >
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href="index.html"><img src="images/logo-new.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <ul class="btn">
+                           <li class="down_btn"><a href="#model-form-section">Predict</a></li>
+                           <li><a href="#">Sign Up</a></li>
+                           <li><button type="button" id="sidebarCollapse">
+                              <img src="images/menu_icon.png" alt="#" />
+                              </button>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- end header inner -->
+         <!-- end header -->
+         <!-- banner -->
+         <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h1 class="capitalize">Predict your <br> medical <br>consultation fees</h1>
+                                 <a class="read_more" href="#model-form-section">Try MedCos Now!</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img
+                                    class="home_image" 
+                                     src="images/SVG/medicine-animate-1.svg"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid ">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 capitalize">
+                              <div class="text-bg">
+                                 <h1>Plan ahead <br>for your
+                                    <br>Health expenses
+                                 </h1>
+                                 <a class="read_more" href="#model-form-section">Calculate Now!</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img class="home_image" src="images/SVG/medical-prescription-animate.svg"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption ">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h1 class="capitalize">Completely<br> Free to use <br>Forever!</h1>
+                                 <p>Predict the cost of your medical consultation with MedCos – the free tool powered by machine learning and Practo's database.</p>
+                                 <a class="read_more" href="#model-form-section">Try it Now!</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img src="images/SVG/medical-prescription-animate-2.svg"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+         <!-- end banner -->
+         <!-- about -->
+         <div id="about"  class="about">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="images/about_img_1.jpg" alt="#"/></figure>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="titlepage">
+                        <h2>About <span class="med-cos-text-design-1">Med</span><span class="med-cos-text-design-2">Cos</span>
+                        </h2>
+                        <p>MedCos is a revolutionary tool that has been developed to help patients predict the cost of medical consultations before even stepping into the doctor's office. This innovative solution is powered by state-of-the-art machine learning algorithms that are built on top of Practo's extensive database of medical consultations.
+                        </p>
+                        <p id="more_details">
+                        </p>
+                        <a id="read_more_about" class="read_more cursor-pointer">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end about -->
+         <!-- choose  section -->
+         <div class="choose ">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Our Team</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="choose_bg">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="row">
+                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
+                              <ul class="easy teamMatesList">
+                                 <li class="active">Pranav</li>
+                                 <li>Anshika</li>
+                                 <li>Lokesh</li>
+                                 <li>Akash</li>
+                              </ul>
+                           </div>
+                           <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 padding_left0">
+                              <div class="choose_box">
+                                 <i><img style="height: 200px;" id="teamMateImage" src="images/teamMates/pranav.png" alt="#"/></i>
+                                 <h3 id="teamMateName">Pranav </h3>
+                                 <h5 id="teamMateRole">Project Leader | ML Engineer</h5>
+                                 <p id="teamMateAbout">A curious and aspiring data scientist, keen to learn new things and apply them to solve real world problems. A quick learner and a team player. Passionate about data science and machine learning and always looking for opportunities to learn and grow.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end choose  section -->
+         <!-- work -->
+         <div id="work"  class="work">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-md-7">
+                     <div class="titlepage">
+                        <h2 class="capitalize">How <span class="med-cos-text-design-1">Med</span><span class="med-cos-text-design-2">Cos</span> works?</h2>
+                        <p>MedCos uses Practo's data and ML to predict the cost of your medical consultation. Get an accurate estimate for free and budget for your medical expenses. Take control of your health with MedCos. </p>
+                        <a class="read_more cursor-pointer" href="#model-form-section">Try it now!</a>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="work_img">
+                        <figure><img src="images/how-it-works.png" alt="#"/></figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end work -->
+         <div class="model-app-form titlepage" id="model-form-section">
+            <h2 id="model-form-title" class="mb-5">Doctor <span class="med-cos-text-design-1">Consultation </span> 
+            <span class="med-cos-text-design-2">Fee</span> Prediction</h2>
+            <form id="model-form" class="container" method="POST">
+               <div class="form-group row">
+                 <label for="exp" class="col-sm-3 col-form-label font-weight-bold" style="color: #78b84f;">Years of Experience</label>
+                 <div class="col-sm-6">
+                   <input type="range" class="form-control-range" id="exp" name="exp" min="1" max="61">
+                   <div class="d-flex justify-content-between" style="color: #78b84f; font-weight: bold;">
+                     <span>1</span>
+                     <span>61</span>
+                   </div>
+                 </div>
+               </div>
+               <div class="form-group row">
+                 <label for="loc" class="col-sm-3 col-form-label font-weight-bold" style="color: #78b84f;">Location</label>
+                 <div class="col-sm-6">
+                   <select class="form-control" id="loc" name="loc">
+                     <option>Select a Location</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row">
+                 <label for="city" class="col-sm-3 col-form-label font-weight-bold" style="color: #78b84f;">City</label>
+                 <div class="col-sm-6">
+                   <select class="form-control" id="city" name="city">
+                     <option>Select a City</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row">
+                 <label for="spec" class="col-sm-3 col-form-label font-weight-bold" style="color: #78b84f;">Specialization</label>
+                 <div class="col-sm-6">
+                   <select class="form-control" id="spec" name="spec">
+                     <option>Select Specialization</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row">
+                 <label for="deg" class="col-sm-3 col-form-label font-weight-bold" style="color: #78b84f;">Degree</label>
+                 <div class="col-sm-6">
+                   <select class="form-control" id="deg" name="deg">
+                     <option>Select Degree</option>
+                   </select>
+                 </div>
+               </div>
+               <div class="form-group row">
+                 <div class="col-sm-6 offset-sm-3">
+                   <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                 </div>
+               </div>
+               <div class="container">
+               </div>
+             </form>
+            <h2 id="predictedOutput"></h2>
+         </div>
+         <!-- request -->
+         <div id="contact" class="request">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage text-center">
+                        <h2>Request <span class="white">A call Back</span></h2>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <form id="request" class="main_form">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                           </div>
+                           <div class="col-md-12">
+                              <textarea rows="3" class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                           </div>
+                           <div class="col-md-12">
+                              <button class="send_btn">Send</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end request -->
+         <!--  footer -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-6">
+                              <div class="address">
+                                 <h3>Address </h3>
+                              </div>
+                              <ul class="location_icon">
+                                 <li>
+                                    Mumbai, Maharashtra, India
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-md-4 col-sm-6">
+                              <div class="address">
+                                 <h3>Links</h3>
+                                 <ul class="Menu_footer">
+                                    <li class="active"> <a href="#">Home</a> </li>
+                                    <li><a href="#about">About </a> </li>
+                                    <li><a href="#work">How it works?</a> </li>
+                                    <li><a href="#contact">Contact Us</a> </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-5 col-sm-6">
+                              <div class="address">
+                                 <h3>Follow Us</h3>
+                              </div>
+                              <ul class="social_icon">
+                                 <li><a href="#">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"> Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"> Linkedin<i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"> Youtube<i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"> Instagram<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                              </ul>
+                           </div>
+                           <div class="col-md-7 col-sm-6">
+                              <div class="address">
+                                 <h3>Newsletter </h3>
+                              </div>
+                              <form class="bottom_form">
+                                 <input class="enter" placeholder="Enter Your Email" type="text" name="Enter Your Email">
+                                 <button class="sub_btn">subscribe</button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p>&copy; 2023 All Right Reserved By MedCos Team</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
+      </div>
+      <div class="overlay"></div>
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+             $("#sidebar").mCustomScrollbar({
+                 theme: "minimal"
+             });
+         
+             $('#dismiss, .overlay').on('click', function() {
+                 $('#sidebar').removeClass('active');
+                 $('.overlay').removeClass('active');
+             });
+         
+             $('#sidebarCollapse').on('click', function() {
+                 $('#sidebar').addClass('active');
+                 $('.overlay').addClass('active');
+                 $('.collapse.in').toggleClass('in');
+                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+             });
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+             $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+         
+             $(".zoom").hover(function() {
+         
+                 $(this).addClass('transition');
+             }, function() {
+         
+                 $(this).removeClass('transition');
+             });
+         });
+      </script>
+      <script>
+         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+         // Australia.
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 11,
+             center: {
+               lat: 40.645037,
+               lng: -73.880224
+             },
+           });
+         
+           var image = 'images/maps-and-flags.png';
+           var beachMarker = new google.maps.Marker({
+             position: {
+               lat: 40.645037,
+               lng: -73.880224
+             },
+             map: map,
+             icon: image
+           });
+         }
+      </script>
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
+   </body>
+</html>
+
+
+<script src="./js/medCos/teamMates/index.js"></script>
+<script type="module" src="./js/medCos/modelForm/index.js"></script>
+<script src="./js/medCos/index.js"></script>
